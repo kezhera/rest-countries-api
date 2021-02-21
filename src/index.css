@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header.light-mode{
+    background: var(--white);
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header.light-mode .logo h1{
+    color: var(--Light-mode-blue);
+}
+.header.light-mode .toggle-mode .mode-btn{
+    color: var(--Light-mode-blue);
+}
+.content.light-mode {
+    background-color: var(--Light-Gray);
+}
+.content.light-mode .search-btn{
+    background: var(--white);
+    color: var(--Light-mode-blue);
+}
+.content.light-mode .search-input{
+    background: var(--white);
+    color: var(--Light-mode-blue);
+}
+.content.light-mode .search-input::placeholder{
+    color: var(--Light-mode-blue);
+}
+.content.light-mode .dropdown-head{
+    color: var(--Light-mode-blue);
+    background-color: var(--white);
+}
+.content.light-mode .dropdown-list{
+    background-color: var(--white);
+    color: var(--Light-mode-blue);
+}
+.content.light-mode .dropdown-list li a{
+    color: var(--Light-mode-blue);
+}
+.content.light-mode .country-item{
+    background-color: var(--white);
+}
+.content.light-mode .country-item__box{
+    color: var(--Light-mode-blue);
+}
+.content.light-mode .country-item__title{
+    color: var(--Light-mode-blue);
+} 
+.content.light-mode .inner-title{
+    color: var(--Dark-Blue);
+}
+.content.light-mode .inner-box{
+    color: var(--Dark-Blue);
+}
+.content.light-mode .inner-btn a{
+    color: var(--Dark-Blue);
+    background-color: var(--white);
+}
+.content.light-mode .inner-btn a:hover{
+    color: var(--Dark-Blue);
+}
+.content.light-mode .back-link{
+    color: var(--Dark-Blue);
+    background-color: var(--white);
+}
+.content.light-mode .back-link:hover{
+    color: var(--Dark-Blue);
+}
+.content.light-mode .inner-border-title{
+    color: var(--Dark-Blue);
 }
